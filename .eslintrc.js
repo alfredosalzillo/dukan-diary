@@ -3,4 +3,8 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
+  rules: {
+    'react/prop-types': 0,
+    'react/jsx-props-no-spreading': 0,
+  },
 };
